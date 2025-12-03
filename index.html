@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão: A Prática de Quíron - O Curador Ferido</title>
+    <!-- Carregamento do Tailwind CSS para estilização -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    <style>
+        /* Definindo fontes personalizadas: Playfair Display para títulos (serif clássico) e Inter para o corpo */
+        .font-playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        .font-inter {
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Cores inspiradas em mármore, bronze e terracota */
+        .bg-marble {
+            background-color: #fcfbf8; /* Quase branco, remetendo a mármore */
+        }
+        .text-bronze {
+            color: #b8860b; /* Bronze/Dourado escuro */
+        }
+        .bg-terracotta {
+            background-color: #8b0000; /* Terracota profundo / Vinho da imagem original */
+        }
+        .text-terracotta {
+            color: #8b0000;
+        }
+
+        /* Efeito de sombra suave para relevo (como em baixos-relevos) */
+        .shadow-mythic {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+        }
+
+        /* Estilo para a âncora de navegação */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Estilo para a seta arqueira (apenas decorativo) */
+        .arrow-icon {
+            transform: rotate(45deg);
+        }
+
+        /* **IMPORTANTE PARA GOOGLE SITES:** Garante que o corpo do HTML interno ocupe todo o espaço. */
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="font-inter bg-marble text-gray-800 antialiased">
+
+    <!-- Navbar de Navegação (Fixo no topo em mobile) -->
+    <header class="sticky top-0 bg-marble/95 backdrop-blur-sm shadow-sm z-50">
+        <nav class="max-w-6xl mx-auto p-4 flex justify-between items-center">
+            <h1 class="font-playfair text-xl font-bold text-terracotta">QUÍRON</h1>
+            <div class="space-x-4 hidden sm:block">
+                <a href="#proposito" class="text-gray-600 hover:text-bronze">Propósito</a>
+                <a href="#programa" class="text-gray-600 hover:text-bronze">Programa</a>
+                <a href="#mediadora" class="text-gray-600 hover:text-bronze">Mediadora</a>
+                <a href="#investimento" class="text-gray-600 hover:text-bronze">Investimento</a>
+            </div>
+            <a href="#inscricao" class="bg-terracotta text-white px-4 py-2 rounded-lg font-semibold shadow-md hover:bg-terracotta/90 transition duration-300">Inscreva-se</a>
+        </nav>
+    </header>
+
+    <!-- Seção 1: Hero (Título e Data) -->
+    <section id="hero" class="bg-marble pt-16 pb-12 sm:pt-24 sm:pb-20">
+        <div class="max-w-4xl mx-auto text-center px-4">
+            <!-- Icone de Arco e Flecha (Remetendo a Sagitário/Quíron) -->
+            <div class="text-7xl mb-4 text-bronze transform rotate-45 mx-auto w-12 h-12">🏹</div>
+            <h2 class="font-playfair text-xl sm:text-2xl font-bold text-terracotta mb-2">A Imersão que Transforma a Ferida em Força</h2>
+            <h1 class="font-playfair text-5xl sm:text-7xl font-extrabold text-gray-900 leading-tight mb-6">A PRÁTICA DE QUÍRON</h1>
+            <p class="text-xl sm:text-2xl text-gray-600 mb-8">
+                **Resgate, Propósito e Sustentabilidade Profissional**
+            </p>
+
+            <div class="inline-block bg-terracotta/10 p-4 rounded-xl shadow-inner mb-8">
+                <p class="text-terracotta font-semibold text-lg sm:text-xl">
+                    <span class="mr-4">📅 13 DE DEZEMBRO</span>
+                    <span>🕒 14:20H - 18H</span>
+                </p>
+            </div>
+
+            <a href="#investimento" class="cta-button inline-block bg-bronze text-white text-xl sm:text-2xl font-bold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl hover:bg-bronze/90 transition duration-300 transform hover:scale-[1.02]">
+                QUERO ME RECONECTAR
+            </a>
+            <p class="mt-4 text-sm text-gray-500">Vagas limitadas para profissionais da saúde.</p>
+        </div>
+    </section>
+
+    <!-- Seção 2: O Propósito (A Mitologia e a Dor do Cuidador) -->
+    <section id="proposito" class="py-16 sm:py-24 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+            <!-- Conteúdo da Mitologia -->
+            <div class="md:order-1">
+                <h3 class="font-playfair text-4xl font-bold text-terracotta mb-6">A Mitologia do Curador Ferido</h3>
+                <p class="text-lg mb-6 leading-relaxed">
+                    Há feridas que não curam com o tempo, mas que, quando tocadas com presença, se transformam em **fonte de sabedoria**.
+                </p>
+                <p class="text-lg mb-6 leading-relaxed border-l-4 border-terracotta pl-4 italic">
+                    "Quíron, o curador ferido, nos ensina que é possível acolher a própria dor sem se perder nela — e, a partir dela, aprender a cuidar de si e do outro com mais verdade, sensibilidade e inteireza."
+                </p>
+                <p class="text-lg leading-relaxed">
+                    Esta imersão é um **convite à pausa**. Um espaço para olhar para dentro, reconhecer o que dói, o que pulsa e o que precisa florescer em sua prática profissional.
+                </p>
+            </div>
+            <!-- Imagem Estilizada (Placeholder Centauro/Arco) -->
+            <div class="md:order-2 flex justify-center">
+                <div class="p-6 bg-terracotta/10 rounded-full w-64 h-64 flex items-center justify-center shadow-mythic">
+                     <!-- SVG de um Centauro estilizado ou apenas o símbolo -->
+                     <svg class="w-32 h-32 text-terracotta" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15H9v-4H7v-2h2V7h2v4h2v2h-2v4zM16 9h-2V7h2v2z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 3: Programação da Imersão -->
+    <section id="programa" class="py-16 sm:py-24">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h3 class="font-playfair text-5xl font-bold text-bronze mb-12">O Caminho da Transformação</h3>
+
+            <div class="grid md:grid-cols-2 gap-8 text-left">
+
+                <!-- Bloco 1 -->
+                <div class="p-6 rounded-xl bg-white shadow-mythic border-t-4 border-terracotta">
+                    <h4 class="font-playfair text-xl font-semibold text-terracotta mb-3 flex items-center"><span class="text-3xl mr-3">🧘</span> Pausa e Conexão</h4>
+                    <ul class="space-y-2 text-gray-700 list-disc pl-5">
+                        <li>Ambientação e técnicas de relaxamento para aprimorar a experiência.</li>
+                        <li>Recursos terapêuticos para auto percepção da identidade e auto avaliação.</li>
+                    </ul>
+                </div>
+
+                <!-- Bloco 2 -->
+                <div class="p-6 rounded-xl bg-white shadow-mythic border-t-4 border-terracotta">
+                    <h4 class="font-playfair text-xl font-semibold text-terracotta mb-3 flex items-center"><span class="text-3xl mr-3">✍️</span> Enfrentamento e Reflexão</h4>
+                    <ul class="space-y-2 text-gray-700 list-disc pl-5">
+                        <li>Exercício da escrita no enfrentamento às limitações.</li>
+                        <li>Recurso terapêutico na percepção e levantamento das necessidades de autocuidado.</li>
+                    </ul>
+                </div>
+
+                <!-- Bloco 3 -->
+                <div class="p-6 rounded-xl bg-white shadow-mythic border-t-4 border-terracotta md:col-span-2">
+                    <h4 class="font-playfair text-xl font-semibold text-terracotta mb-3 flex items-center"><span class="text-3xl mr-3">🌐</span> Estratégias e Sustentabilidade</h4>
+                    <ul class="space-y-2 text-gray-700 list-disc pl-5">
+                        <li>Levantamento de possibilidades e estratégias individuais e em rede para atender às necessidades de cuidado.</li>
+                        <li>Fechamento em partilha e Coffee-break (momento de nutrição e comunidade).</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 4: Mediadora (Kelly Silva) -->
+    <section id="mediadora" class="py-16 sm:py-24 bg-gray-100">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h3 class="font-playfair text-5xl font-bold text-terracotta mb-12">A Condutora da Jornada</h3>
+
+            <div class="bg-white p-8 rounded-xl shadow-xl max-w-lg mx-auto">
+                <img src="https://placehold.co/200x200/b8860b/ffffff?text=Kelly+Silva" onerror="this.src='https://placehold.co/200x200/b8860b/ffffff?text=Kelly+Silva';" alt="Foto de Kelly Silva" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-bronze shadow-lg">
+                <h4 class="font-playfair text-3xl font-bold text-gray-900 mb-2">Kelly Silva</h4>
+                <p class="text-bronze font-semibold mb-4">Psicóloga Clínica • CRP 214419</p>
+
+                <p class="text-gray-700 mb-4 text-left">
+                    Psicóloga clínica, bacharel pela UESPI, e especialista em Direitos Humanos e Movimentos Sociais. Sua trajetória é marcada pela sensibilidade e foco na atuação frente a traumas de âmbito social como **racismo estrutural, violência contra a mulher e abuso sexual infantil**.
+                </p>
+                <p class="text-gray-700 text-left italic">
+                    "Sabendo das demandas de quem cuida, esse encontro foi pensado para ser um refúgio e uma fonte de força para sua jornada singular."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 5: Investimento -->
+    <section id="investimento" class="py-16 sm:py-24">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h3 class="font-playfair text-5xl font-bold text-bronze mb-12">Seu Investimento em Si</h3>
+            <p class="text-lg text-gray-600 mb-8">
+                Valorize sua saúde e sustabilidade profissional. Escolha a opção de inscrição que melhor se encaixa para você.
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-6">
+
+                <!-- Cartão Individual Pix -->
+                <div class="p-6 bg-white border-4 border-terracotta rounded-xl shadow-xl">
+                    <p class="text-sm font-semibold text-terracotta mb-2">Opção Individual</p>
+                    <h4 class="text-3xl font-playfair font-bold mb-4">À VISTA (PIX)</h4>
+                    <p class="text-4xl font-extrabold text-terracotta mb-4">R$ 135,00</p>
+                    <p class="text-gray-500 mb-6">Desconto de 10% aplicado.</p>
+                </div>
+
+                <!-- Cartão 2 Pessoas -->
+                <div class="p-6 bg-white border-4 border-bronze rounded-xl shadow-xl transform scale-105">
+                    <p class="text-sm font-semibold text-bronze mb-2">Melhor Opção</p>
+                    <h4 class="text-3xl font-playfair font-bold mb-4">EM DUPLA</h4>
+                    <p class="text-4xl font-extrabold text-bronze mb-4">R$ 120,00</p>
+                    <p class="text-gray-500 mb-6">Por pessoa (20% de desconto).</p>
+                </div>
+
+                <!-- Cartão 3 Pessoas -->
+                <div class="p-6 bg-white border-4 border-terracotta rounded-xl shadow-xl">
+                    <p class="text-sm font-semibold text-terracotta mb-2">Opção Grupo</p>
+                    <h4 class="text-3xl font-playfair font-bold mb-4">EM TRIO</h4>
+                    <p class="text-4xl font-extrabold text-terracotta mb-4">R$ 115,00</p>
+                    <p class="text-gray-500 mb-6">Por pessoa (23% de desconto).</p>
+                </div>
+
+                <!-- Opção Cartão (sem desconto) -->
+                <div class="md:col-span-3 mt-4">
+                    <p class="text-lg text-gray-700">Ou R$ 150,00 no cartão (sem desconto à vista).</p>
+                </div>
+
+            </div>
+
+            <!-- CTA Final -->
+            <a id="inscricao" href="https://wa.me/5586988721046" target="_blank" class="mt-10 cta-button inline-block bg-terracotta text-white text-xl sm:text-2xl font-bold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl hover:bg-terracotta/90 transition duration-300 transform hover:scale-[1.02]">
+                FAZER MINHA INSCRIÇÃO AGORA
+            </a>
+            <p class="mt-4 text-gray-600 font-semibold">Fale com Kelly via WhatsApp: 86988721046</p>
+        </div>
+    </section>
+
+    <!-- Seção 6: Local e Contato -->
+    <footer class="bg-gray-900 py-12">
+        <div class="max-w-6xl mx-auto px-4 text-center text-gray-300">
+            <h4 class="font-playfair text-2xl font-bold text-bronze mb-4">Local da Imersão</h4>
+            <p class="mb-2">📍 **Espaço Dunamis**</p>
+            <p class="mb-8">Rua Olavo Bilac, n 1759, sala 11</p>
+
+            <h4 class="font-playfair text-2xl font-bold text-bronze mb-4">Contato Exclusivo</h4>
+            <p class="mb-2">Kelly Silva (WhatsApp): **86 98872-1046**</p>
+            <p class="text-sm mt-6">A Imersão "A Prática de Quíron" é um evento dedicado à saúde mental e profissional do cuidador.</p>
+        </div>
+    </footer>
+
+    <!-- Script JavaScript para funcionalidade futura, se necessário -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('Landing Page de A Prática de Quíron carregada.');
+            
+            // Adicionar lógica de clique no CTA para o WhatsApp
+            const ctaButtons = document.querySelectorAll('.cta-button');
+            ctaButtons.forEach(button => {
+                button.addEventListener('click', (e) => {
+                    // Simplesmente registra o clique
+                    console.log('Botão CTA clicado. Redirecionando para WhatsApp.');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
